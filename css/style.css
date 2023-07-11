@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@400;500;600&family=Montserrat:wght@400;500;600&display=swap');
+
+
+
+:root{
+    --color-blue-fraco: #dbefff;
+    --color-blue-forte: #0711D9;
+    --color-verde: #82D9B9;
+    --color-laranja-fraco: #F27405;
+    --color-laranja-forte: #F25C05;
+    --font-titulo: 'Merienda', cursive;
+    --font-botao: 'Montserrat', sans-serif;
+
+}
+
+/* body{
+    background-color: var(--color-verde);
+} */
+
+.botao-menu{
+    font-family: var(--font-botao);
+    font-size: 0.9em;
+    font-weight: 500;
+}
+
+.titulo-menu{
+    font-family: var(--font-titulo) !important;
+    font-size: 1.0em !important;
+    font-weight: 600 !important;
+}
+
+.menu{
+    background-color: var(--color-blue-fraco) !important;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.288) !important;
+}
+
+.dropdown-menu {
+    background-color: var(--color-verde) !important;
+}
+
+
+/* Sub menus */
+
+.dropdown-submenu>.dropdown-menu {
+    top: 0;
+    right: 100%;
+    margin-top: -6px;
+    margin-right: -1px;
+    -webkit-border-radius: 0 6px 6px 6px;
+    -moz-border-radius: 0 6px 6px;
+    border-radius: 0 6px 6px 6px;
+}
+
+.dropdown-submenu:hover>.dropdown-menu {
+    display: block;
+}
+
+.dropdown-submenu>a:after {
+    display: block;
+    content: " ";
+    float: right;
+    width: 0;
+    height: 0;
+    border-color: transparent;
+    border-style: solid;
+    border-width: 5px 0 5px 5px;
+    border-left-color: #ccc;
+    margin-top: 5px;
+    margin-right: -10px;
+}
+
+.dropdown-submenu:hover>a:after {
+    border-left-color: #fff;
+}
+
+.dropdown-submenu.pull-left {
+    float: none;
+}
+
+.dropdown-submenu.pull-left>.dropdown-menu {
+    left: -100%;
+    margin-left: 10px;
+    -webkit-border-radius: 6px 0 6px 6px;
+    -moz-border-radius: 6px 0 6px 6px;
+    border-radius: 6px 0 6px 6px;
+}
