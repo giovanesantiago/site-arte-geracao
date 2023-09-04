@@ -6,16 +6,13 @@
     --color-blue-fraco: #dbefff;
     --color-blue-forte: #0711D9;
     --color-verde: #82D9B9;
-    --color-laranja-fraco: #F27405;
-    --color-laranja-forte: #F25C05;
+    --color-laranja-fraco: #f274059f;
+    --color-laranja-forte: #E67250;
     --font-titulo: 'Merienda', cursive;
     --font-botao: 'Montserrat', sans-serif;
 
 }
 
-/* body{
-    background-color: var(--color-verde);
-} */
 
 .botao-menu{
     font-family: var(--font-botao);
@@ -30,12 +27,12 @@
 }
 
 .menu{
-    background-color: var(--color-blue-fraco) !important;
+    background-color: var(--color-laranja-forte) !important;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.288) !important;
 }
 
 .dropdown-menu {
-    background-color: var(--color-verde) !important;
+    background-color: var(--color-laranja-forte) !important;
 }
 
 
@@ -64,13 +61,13 @@
     border-color: transparent;
     border-style: solid;
     border-width: 5px 0 5px 5px;
-    border-left-color: #ccc;
+    border-left-color: var(--color-laranja-forte);
     margin-top: 5px;
     margin-right: -10px;
 }
 
 .dropdown-submenu:hover>a:after {
-    border-left-color: #fff;
+    border-left-color: var(--color-laranja-forte);
 }
 
 .dropdown-submenu.pull-left {
@@ -83,4 +80,37 @@
     -webkit-border-radius: 6px 0 6px 6px;
     -moz-border-radius: 6px 0 6px 6px;
     border-radius: 6px 0 6px 6px;
+}
+
+/* .bg{
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: .3;
+    width: 100%;
+    height: 100%;
+    
+    background-size: 100%;
+    background-color: #cccccc;
+} */
+
+main{
+    background: var(--color-laranja-fraco);
+}
+
+.main{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+.img-pag-ing{
+    border-radius: 50px;
+}
+
+.lead{
+    font-weight: 400;
 }
