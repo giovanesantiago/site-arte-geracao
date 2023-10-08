@@ -1,3 +1,14 @@
 .card-subtitle-by{
     font-size: 0.5em;
 }
+.card-subtitle-money{
+    margin-top: 0px;
+    font-size: 1.2em;
+}
+.card-body{
+    padding-top: 0px !important;
+}
+
+.list-money{
+    padding: 5px;
+}
